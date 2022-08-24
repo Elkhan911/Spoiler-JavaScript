@@ -1,0 +1,25 @@
+.task {
+  width: 1200px;
+  margin: 100px auto;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.task__heading {
+  display: block;
+  font-size: 25px;
+  margin: 30px 0;
+}
+
+.task__spoiler_on {
+  display: block;
+}
+
+.task__spoiler_off {
+  display: none;
+}
+
+.task__toggle {
+  display: inline-block;
+}
