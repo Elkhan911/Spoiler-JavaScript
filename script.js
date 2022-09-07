@@ -1,7 +1,7 @@
-const toggleLinks = document.querySelectorAll(".spoiler__toggle");
+const toggleClicks = document.querySelectorAll(".spoiler__toggle");
 
-for (let toggleLink of toggleLinks) {
-  toggleLink.addEventListener("click", function () {
-    toggleLink.nextElementSibling.classList.remove("spoiler__text_off");
+for (let toggleClick of toggleClicks) {
+  toggleClick.addEventListener("click", function () {
+    toggleClick.nextElementSibling.classList.remove("spoiler__text_off");
   });
 }
