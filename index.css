@@ -1,25 +1,39 @@
-.task {
+.spoiler {
+  border: 1px solid black;
   width: 1200px;
-  margin: 100px auto;
-  padding: 30px 0;
+  margin: auto;
   text-align: center;
-  font-size: 20px;
+  padding: 20px;
 }
 
-.task__heading {
-  display: block;
-  font-size: 25px;
-  margin: 30px 0;
+.spoiler__box {
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
 }
 
-.task__spoiler_on {
-  display: block;
+.spoiler__header {
+  border: 1px solid black;
+  font-size: 40px;
 }
 
-.task__spoiler_off {
+.spoiler__item {
+  /* border: 1px solid black; */
+  min-height: 180px;
+}
+
+.spoiler__text {
+  font-size: 24px;
+}
+
+.spoiler__toggle {
+  font-size: 24px;
+}
+
+.spoiler__text_off {
   display: none;
 }
 
-.task__toggle {
+.spoiler__toggle {
   display: inline-block;
 }

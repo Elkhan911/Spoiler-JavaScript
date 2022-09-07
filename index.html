@@ -8,16 +8,36 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <section class="task">
-      <h2 class="task__heading">
-        Реализуйте переключатель спойлера по клику на ссылку
-      </h2>
-      <p class="task__text">абзац с текстом</p>
-      <a class="task__toggle" href="#" id="_toggle1">развернуть спойлер 1</a>
-      <p class="task__spoiler_off">скрытый спойлер 1</p>
-      <p class="task__text">абзац с текстом</p>
-      <a class="task__toggle" href="#">развернуть спойлер 2</a>
-      <p class="task__spoiler_off">скрытый спойлер 2</p>
+    <section class="spoiler">
+      <div class="spoiler__box">
+        <h2 class="spoiler__header">Спойлер по клику на ссылку</h2>
+        <div class="spoiler__item">
+          <p class="spoiler__text">Когда было крещение Руси?</p>
+          <a class="spoiler__toggle" href="#" id="_toggle1">узнать по клику</a>
+          <p class="spoiler__text spoiler__text_off">
+            <b> Крещение Руси было в 988 году</b>
+          </p>
+        </div>
+
+        <div class="spoiler__item">
+          <p class="spoiler__text">Какой князь крестил Русь?</p>
+          <a class="spoiler__toggle" href="#">узнать по клику</a>
+          <p class="spoiler__text spoiler__text_off">
+            <b> Киевский князь Владимир Святославич </b>
+          </p>
+        </div>
+
+        <div class="spoiler__item">
+          <p class="spoiler__text">Где происходило крещение Руси?</p>
+          <a class="spoiler__toggle" href="#">узнать по клику</a>
+          <p class="spoiler__text spoiler__text_off">
+            <b>
+              Присланное из Византии духовенство проводило обряд крещения в
+              водах Днепра
+            </b>
+          </p>
+        </div>
+      </div>
     </section>
 
     <script src="script.js"></script>
